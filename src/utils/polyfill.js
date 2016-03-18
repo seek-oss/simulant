@@ -1,4 +1,5 @@
 export default function polyfill () {
+
 	// https://gist.github.com/Rich-Harris/6010282 via https://gist.github.com/jonathantneal/2869388
 	// addEventListener polyfill IE6+
 	var Event, addEventListener, removeEventListener, head, style;
